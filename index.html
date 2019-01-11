@@ -8,10 +8,15 @@
 
     </head>
     <body>
-        <button id="loginBtn">Acessar como anônimo</button>
+        <input type="email" id="email">
+        <input type="password" id="password">
+        <br>
+        <button id="createUserWithEmailAndPassword">Criar conta com email e senha</button>
+        <button id="signInWithEmailPasswordBtn">Acessar com email e senha</button>
+        <button id="signInAnonymously">Acessar como anônimo</button>
         <button id="logOutBtn">Sair</button>
         <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
         <script src="firebase.js"></script>
-        <script src="signInAnonymously.js"></script>
+        <script src="auth.js"></script>
     </body>
 </html>
